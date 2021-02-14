@@ -34,7 +34,7 @@ jobs:
         # Defines whether to add translation if it is equal to source string in Crowdin project
         import_eq_suggestions: false
         # Make pull request of Crowdin translations
-        download_translations: false
+        download_translations: true
         # Skip untranslated strings in exported files (does not work with .docx, .html, .md and other document files)
         skip_untranslated_strings: false
         # Omit downloading not fully downloaded files
