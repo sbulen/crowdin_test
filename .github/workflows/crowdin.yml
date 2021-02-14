@@ -1,0 +1,10 @@
+"files": [
+  {
+    "source": "/Themes/default/Languages/*.english.php",
+    "translation": "/Themes/default/Languages/%original_file_name%.%language%.php"
+  },
+  {
+    "source": "agreement.txt",
+    "translation": "agreement.%language%.txt"
+  }
+]
