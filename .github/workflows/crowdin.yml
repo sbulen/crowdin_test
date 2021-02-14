@@ -54,6 +54,6 @@ jobs:
         # To add labels for created pull request
         pull_request_labels: Language
         # Numerical ID of the project
-        project_id: # optional
+        project_id: ${{ secrets.CI_PROJECT}}
         # Personal access token required for authentication
-        token: # optional
+        token: ${{ secrets.CI_TOKEN}}
