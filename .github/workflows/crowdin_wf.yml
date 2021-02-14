@@ -54,9 +54,6 @@ jobs:
         # To add labels for created pull request
         pull_request_labels: Language
 
-        # global options
-        crowdin_branch_name: '2.1 RC3'
-  
         # Authentication
         # Numerical ID of the project
         project_id: ${{ secrets.CI_PROJECT}}
