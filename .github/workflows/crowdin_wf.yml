@@ -56,7 +56,6 @@ jobs:
 
         # global options
         crowdin_branch_name: '2.1 RC3'
-        config: 
   
         # Authentication
         # Numerical ID of the project
