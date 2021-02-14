@@ -54,6 +54,11 @@ jobs:
         # To add labels for created pull request
         pull_request_labels: Language
 
+        # Path to the source files
+        source: '/Themes/default/Languages/*.english.php'
+        #Path to the translation files
+        translation: '/Themes/default/Languages/%original_file_name%.%language%.php'
+
         # Authentication
         # Numerical ID of the project
         project_id: ${{ secrets.CI_PROJECT}}
