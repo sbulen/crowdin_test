@@ -14,7 +14,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  crowdin-sync:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -30,11 +30,11 @@ jobs:
         # Upload translations to Crowdin
         upload_translations: false
         # Automatically approves uploaded translations
-        auto_approve_imported: true
+        auto_approve_imported: false
         # Defines whether to add translation if it is equal to source string in Crowdin project
         import_eq_suggestions: false
         # Make pull request of Crowdin translations
-        download_translations: true
+        download_translations: false
         # Skip untranslated strings in exported files (does not work with .docx, .html, .md and other document files)
         skip_untranslated_strings: false
         # Omit downloading not fully downloaded files
@@ -42,9 +42,9 @@ jobs:
         # Include approved translations only in exported files. If not combined with --skip-untranslated-strings option, strings without approval are fulfilled with the source language
         export_only_approved: false
         # Download translations with pushing to branch
-        push_translations: true
+        push_translations: false
         # Commit message for download translations
-        commit_message: # default is New Crowdin translations by Github Action
+        commit_message: New Crowdin translations by Github Action
         # To download translations to the specified version branch
         localization_branch_name: l10n_crowdin_action
         # Create pull request after pushing to branch
@@ -53,6 +53,12 @@ jobs:
         pull_request_title: New Crowdin translations by Github Action
         # To add labels for created pull request
         pull_request_labels: Language
+
+        # global options
+        crowdin_branch_name: '2.1 RC3'
+        config: 
+  
+        # Authentication
         # Numerical ID of the project
         project_id: ${{ secrets.CI_PROJECT}}
         # Personal access token required for authentication
