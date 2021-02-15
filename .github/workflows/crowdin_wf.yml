@@ -7,6 +7,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Auto pushes when a release is tagged
   release:
     types: [ published ]
     branches: [ master ]
