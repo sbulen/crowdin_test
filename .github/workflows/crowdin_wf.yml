@@ -46,8 +46,7 @@ jobs:
       env:
         # Use GitHub Secrets here, so sensitive stuff isn't in the publicly visible workflow
         # Note that the CrowdIn API token will accept either a user's personal CrowdIn token
-        # or a more generic "API" token, not tied to a specific user.  
-        # You can generate an API token via the CrowdIn console client using the "crowdin init" command.
+        # or an "API" token, generated via the CrowdIn console client using the "crowdin init" command.
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         CROWDIN_PROJECT_ID: ${{ secrets.CI_PROJECT }}
         CROWDIN_API_TOKEN: ${{ secrets.CI_API_TOKEN }}
