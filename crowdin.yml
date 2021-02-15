@@ -3,7 +3,7 @@
 #
 "project_id" : ${{ secrets.CI_PROJECT }}
 "api_token" : ${{ secrets.CI_API_TOKEN }}
-"base_path" : "SMF 2.1 RC4"
+"base_path" : "."
 "base_url" : "https://api.crowdin.com"
 
 #
