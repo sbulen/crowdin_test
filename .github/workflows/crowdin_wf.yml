@@ -58,7 +58,6 @@ jobs:
         pull_request_labels: Language
 
         # Path to the source files
-        preserve_hierarchy: true
         source: '/Themes/default/languages/*.english.php'
         #Path to the translation files
         translation: '/Themes/default/languages/%original_file_name%.%language%.php'
@@ -66,7 +65,7 @@ jobs:
         # Base URL of Crowdin server for API requests execution
         base_url: 'https://crowdin.com'
         # Path to your project directory on a local machine
-        # base_path: '/crowdin_test'
+        base_path: '/crowdin_test'
 
         # Authentication
         # Numerical ID of the project
