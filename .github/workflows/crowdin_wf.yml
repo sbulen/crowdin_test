@@ -44,8 +44,7 @@ jobs:
         # To add labels for created pull request
         pull_request_labels: 'Language'
 
-        # Authentication
-        # Numerical ID of the project
-        project_id: ${{ secrets.CI_PROJECT}}
-        # Personal access token required for authentication
-        token: ${{ secrets.CI_TOKEN}}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        CROWDIN_PROJECT_ID: ${{ secrets.CI_PROJECT }}
+        CROWDIN_PERSONAL_TOKEN: ${{ secrets.CI_TOKEN }}
