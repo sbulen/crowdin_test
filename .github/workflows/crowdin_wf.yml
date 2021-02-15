@@ -58,9 +58,9 @@ jobs:
         pull_request_labels: Language
 
         # Path to the source files
-        source: '/Themes/default/languages/*.english.php'
+        source: /Themes/default/languages/*.english.php
         #Path to the translation files
-        translation: '/Themes/default/languages/%original_file_name%.%language%.php'
+        translation: /Themes/default/languages/%original_file_name%.%language%.php
 
         # Base URL of Crowdin server for API requests execution
         base_url: 'https://crowdin.com'
