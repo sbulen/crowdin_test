@@ -7,6 +7,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  release:
+    types: [ published ]
+    branches: [ master ]
+
 # Only one job, the crowdin sync
 jobs:
   crowdin-sync:
