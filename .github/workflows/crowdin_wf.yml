@@ -1,4 +1,4 @@
-# This is a basic workflow to help you get started with Actions
+# CrowdIn workflow for SMF
 
 name: CrowdIn
 
@@ -7,14 +7,13 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# Only one job, the crowdin sync
 jobs:
-  # This workflow contains a single job called "build"
   crowdin-sync:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    # Checkout the source, then invoke the GitHub CrowdIn Action
     steps:
 
     - name: Checkout
@@ -22,13 +21,15 @@ jobs:
 
     - name: crowdin-action
       # You may pin to the exact commit or the version.
-      uses: crowdin/github-action@1.0.18
+      uses: crowdin/github-action
       with:
+        # Push sources (the english files) to CrowdIn; do not push translations (non-english) in either direction
         upload_sources: true
         upload_translations: false
         download_translations: false
+        # This branch name is the name of the highest level folder in your "Files" tab in CrowdIn
         crowdin_branch_name: 'SMF_2.1_RC4'
-        # Download translations with pushing to branch
+        # Items below are only needed when you want translations back into GH
         push_translations: true
         # Commit message for download translations
         commit_message: 'New Crowdin translations by Github Action'
@@ -42,6 +43,10 @@ jobs:
         pull_request_labels: 'Language'
 
       env:
+        # Use GitHub Secrets here, so sensitive stuff isn't in the publicly visible workflow
+        # Note that the CrowdIn API token will accept either a user's personal CrowdIn token
+        # or a more generic "API" token, not tied to a specific user.  
+        # You can generate an API token via the CrowdIn console client using the "crowdin init" command.
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         CROWDIN_PROJECT_ID: ${{ secrets.CI_PROJECT }}
         CROWDIN_API_TOKEN: ${{ secrets.CI_API_TOKEN }}

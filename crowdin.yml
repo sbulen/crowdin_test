@@ -1,5 +1,7 @@
 #
 # Your Crowdin credentials
+#  - The _env versions replace the non-_env versions when using a public repository for security
+#  - These environment variables must be defined in the env: section in your GitHub workflow
 #
 "project_id_env": CROWDIN_PROJECT_ID
 "api_token_env": CROWDIN_API_TOKEN
@@ -7,8 +9,8 @@
 "base_url" : "https://api.crowdin.com"
 
 #
-# Choose file structure in Crowdin
-# e.g. true or false
+# Whether to use the existing file system hierarchy or to flatten it out
+#  - true or false, SMF needs this to be true, since our hierarchy isn't flat (agreement.txt vs others)
 #
 "preserve_hierarchy": true
 
@@ -19,13 +21,14 @@ files: [
  {
   #
   # Source files filter
-  # e.g. "/resources/en/*.json"
+  #  - Grab all the english files in the languages folder
   #
   "source" : "/Themes/default/languages/*.english.php",
 
   #
   # Where translations will be placed
-  # e.g. "/resources/%two_letters_code%/%original_file_name%"
+  #  - Note this honors CrowdIn's "Language Mapping"
+  #  - Need to remove the '.english' from the filename on export otherwise things end up like "Admin.english.dutch.php"
   #
   "translation" : "/Themes/default/languages/%file_name%.%language%.php",
   "translation_replace": {
@@ -35,13 +38,12 @@ files: [
  {
   #
   # Source files filter
-  # e.g. "/resources/en/*.json"
+  #  - The english agreement has no language in the name
   #
   "source" : "agreement.txt",
 
   #
-  # Where translations will be placed
-  # e.g. "/resources/%two_letters_code%/%original_file_name%"
+  # Translated agreements include the language
   #
   "translation" : "agreement.%language%.txt"
  }
