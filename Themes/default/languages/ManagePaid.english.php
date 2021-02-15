@@ -20,4 +20,9 @@ $txt['cad'] = 'CAD (C$)';
 $txt['aud'] = 'AUD (A$)';
 $txt['other'] = 'Other';
 
+$txt['added 1'] = 'added by shawn 1';
+$txt['added 2'] = 'added by shawn 2';
+$txt['added 3] = 'added by shawn 3';
+$txt['added 4'] = 'added by shawn 4';
+
 ?>
