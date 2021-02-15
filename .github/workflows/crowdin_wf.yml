@@ -27,9 +27,10 @@ jobs:
         upload_sources: true
         upload_translations: false
         download_translations: false
-        # This branch name is the name of the highest level folder in your "Files" tab in CrowdIn
+        # The crowdin_branch_name is the name of the highest level folder in your "Files" tab in CrowdIn
+        # At the moment, it really does not like embedded spaces (2/2021)
         crowdin_branch_name: 'SMF_2.1_RC4'
-        # Items below are only needed when you want translations back into GH
+        # The rest of the "with" items below are only needed when you want translations back into GH...
         push_translations: true
         # Commit message for download translations
         commit_message: 'New Crowdin translations by Github Action'
