@@ -63,9 +63,9 @@ jobs:
         translation: /Themes/default/languages/%original_file_name%.%language%.php
 
         # Base URL of Crowdin server for API requests execution
-        base_url: 'https://crowdin.com'
+        base_url: https://crowdin.com
         # Path to your project directory on a local machine
-        # base_path: '/crowdin_test'
+        base_path: /crowdin_test
 
         # Authentication
         # Numerical ID of the project
