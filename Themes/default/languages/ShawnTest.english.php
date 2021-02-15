@@ -14,7 +14,7 @@ $txt['st 8'] = 'Shawn test 8';
 $txt['st 9'] = 'Shawn test 9';
 $txt['st 10'] = 'Shawn test 10 SOME MORE CHANGES';
 $txt['st 11'] = 'Shawn test 11 EVEN MORE CHANGES';
-$txt['st 12'] = 'Shawn test 12 EVEN MORE CHANGES';
+$txt['st 12'] = 'Shawn test 12 EVEN MORE CHANGES AGAIN AGAIN';
 $txt['st 13'] = 'Shawn test 13 EVEN MORE CHANGES';
 $txt['st 14'] = 'Shawn test 14 EVEN MORE CHANGES';
 
