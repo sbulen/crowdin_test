@@ -123,7 +123,7 @@ files: [
   translation: "/Themes/default/languages/Packages.%language%.php",
  },
  {
-  source: "/Themes/default/languages/PersonalMessages.english.php",
+  source: "/Themes/default/languages/PersonalMessage.english.php",
   translation: "/Themes/default/languages/PersonalMessages.%language%.php",
  },
  {
