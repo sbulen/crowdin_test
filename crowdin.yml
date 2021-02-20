@@ -20,147 +20,147 @@ preserve_hierarchy: true
 files: [
  {
   source: "/Themes/default/languages/Admin.english.php",
-  translation: "/Themes/default/languages/Admin.%language%.php",
+  translation: "Admin.%language%.php",
  },
  {
   source: "/Themes/default/languages/Agreement.english.php",
-  translation: "/Themes/default/languages/Agreement.%language%.php",
+  translation: "Agreement.%language%.php",
  },
  {
   source: "/Themes/default/languages/Alerts.english.php",
-  translation: "/Themes/default/languages/Alerts.%language%.php",
+  translation: "Alerts.%language%.php",
  },
  {
   source: "/Themes/default/languages/Drafts.english.php",
-  translation: "/Themes/default/languages/Drafts.%language%.php",
+  translation: "Drafts.%language%.php",
  },
  {
   source: "/Themes/default/languages/Editor.english.php",
-  translation: "/Themes/default/languages/Editor.%language%.php",
+  translation: "Editor.%language%.php",
  },
  {
   source: "/Themes/default/languages/EmailTemplates.english.php",
-  translation: "/Themes/default/languages/EmailTemplates.%language%.php",
+  translation: "EmailTemplates.%language%.php",
  },
  {
   source: "/Themes/default/languages/Errors.english.php",
-  translation: "/Themes/default/languages/Errors.%language%.php",
+  translation: "Errors.%language%.php",
  },
  {
   source: "/Themes/default/languages/Help.english.php",
-  translation: "/Themes/default/languages/Help.%language%.php",
+  translation: "Help.%language%.php",
  },
  {
   source: "/Themes/default/languages/index.english.php",
-  translation: "/Themes/default/languages/index.%language%.php",
+  translation: "index.%language%.php",
  },
  {
   source: "/Themes/default/languages/Install.english.php",
-  translation: "/Themes/default/languages/Install.%language%.php",
+  translation: "Install.%language%.php",
  },
  {
   source: "/Themes/default/languages/Login.english.php",
-  translation: "/Themes/default/languages/Login.%language%.php",
+  translation: "Login.%language%.php",
  },
  {
   source: "/Themes/default/languages/ManageBoards.english.php",
-  translation: "/Themes/default/languages/ManageBoards.%language%.php",
+  translation: "ManageBoards.%language%.php",
  },
  {
   source: "/Themes/default/languages/ManageCalendar.english.php",
-  translation: "/Themes/default/languages/ManageCalendar.%language%.php",
+  translation: "ManageCalendar.%language%.php",
  },
  {
   source: "/Themes/default/languages/ManageMail.english.php",
-  translation: "/Themes/default/languages/ManageMail.%language%.php",
+  translation: "ManageMail.%language%.php",
  },
  {
   source: "/Themes/default/languages/ManageMaintenance.english.php",
-  translation: "/Themes/default/languages/ManageMaintenance.%language%.php",
+  translation: "ManageMaintenance.%language%.php",
  },
  {
   source: "/Themes/default/languages/ManageMembers.english.php",
-  translation: "/Themes/default/languages/ManageMembers.%language%.php",
+  translation: "ManageMembers.%language%.php",
  },
  {
   source: "/Themes/default/languages/ManagePaid.english.php",
-  translation: "/Themes/default/languages/ManagePaid.%language%.php",
+  translation: "ManagePaid.%language%.php",
  },
  {
   source: "/Themes/default/languages/ManagePermissions.english.php",
-  translation: "/Themes/default/languages/ManagePermissions.%language%.php",
+  translation: "ManagePermissions.%language%.php",
  },
  {
   source: "/Themes/default/languages/ManageScheduledTasks.english.php",
-  translation: "/Themes/default/languages/ManageScheduledTasks.%language%.php",
+  translation: "ManageScheduledTasks.%language%.php",
  },
  {
   source: "/Themes/default/languages/ManageSettings.english.php",
-  translation: "/Themes/default/languages/ManageSettings.%language%.php",
+  translation: "ManageSettings.%language%.php",
  },
  {
   source: "/Themes/default/languages/ManageSmileys.english.php",
-  translation: "/Themes/default/languages/ManageSmileys.%language%.php",
+  translation: "ManageSmileys.%language%.php",
  },
  {
   source: "/Themes/default/languages/Manual.english.php",
-  translation: "/Themes/default/languages/Manual.%language%.php",
+  translation: "Manual.%language%.php",
  },
  {
   source: "/Themes/default/languages/ModerationCenter.english.php",
-  translation: "/Themes/default/languages/ModerationCenter.%language%.php",
+  translation: "ModerationCenter.%language%.php",
  },
  {
   source: "/Themes/default/languages/Modifications.english.php",
-  translation: "/Themes/default/languages/Modifications.%language%.php",
+  translation: "Modifications.%language%.php",
  },
  {
   source: "/Themes/default/languages/Modlog.english.php",
-  translation: "/Themes/default/languages/Modlog.%language%.php",
+  translation: "Modlog.%language%.php",
  },
  {
   source: "/Themes/default/languages/Packages.english.php",
-  translation: "/Themes/default/languages/Packages.%language%.php",
+  translation: "Packages.%language%.php",
  },
  {
   source: "/Themes/default/languages/PersonalMessage.english.php",
-  translation: "/Themes/default/languages/PersonalMessages.%language%.php",
+  translation: "PersonalMessages.%language%.php",
  },
  {
   source: "/Themes/default/languages/Post.english.php",
-  translation: "/Themes/default/languages/Post.%language%.php",
+  translation: "Post.%language%.php",
  },
  {
   source: "/Themes/default/languages/Profile.english.php",
-  translation: "/Themes/default/languages/Profile.%language%.php",
+  translation: "Profile.%language%.php",
  },
  {
   source: "/Themes/default/languages/Reports.english.php",
-  translation: "/Themes/default/languages/Reports.%language%.php",
+  translation: "Reports.%language%.php",
  },
  {
   source: "/Themes/default/languages/Search.english.php",
-  translation: "/Themes/default/languages/Search.%language%.php",
+  translation: "Search.%language%.php",
  },
  {
   source: "/Themes/default/languages/Settings.english.php",
-  translation: "/Themes/default/languages/Settings.%language%.php",
+  translation: "Settings.%language%.php",
  },
  {
   source: "/Themes/default/languages/Stats.english.php",
-  translation: "/Themes/default/languages/Stats.%language%.php",
+  translation: "Stats.%language%.php",
  },
  {
   source: "/Themes/default/languages/Themes.english.php",
-  translation: "/Themes/default/languages/Themes.%language%.php",
+  translation: "Themes.%language%.php",
  },
  {
   source: "/Themes/default/languages/Timezones.english.php",
-  translation: "/Themes/default/languages/Timezones.%language%.php",
+  translation: "Timezones.%language%.php",
  },
  {
   source: "/Themes/default/languages/Who.english.php",
-  translation: "/Themes/default/languages/Who.%language%.php",
+  translation: "Who.%language%.php",
  },
  {
   source: "agreement.txt",
