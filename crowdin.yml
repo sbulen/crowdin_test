@@ -30,10 +30,10 @@ files: [
   #  - Note this honors CrowdIn's "Language Mapping"
   #  - Need to remove the '.english' from the filename on export otherwise things end up like "Admin.english.dutch.php"
   #
-  translation: "/Themes/default/languages/%file_name%.%language%.php",
-  translation_replace: {
-      ".english" : ""
-  }
+#  translation: "/Themes/default/languages/%file_name%.%language%.php",
+#  translation_replace: {
+#      ".english" : ""
+#  }
  },
  {
   #
