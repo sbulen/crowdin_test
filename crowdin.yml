@@ -12,7 +12,7 @@ base_url : "https://api.crowdin.com"
 # Whether to use the existing file system hierarchy or to flatten it out
 #  - true or false, SMF needs this to be true, since our hierarchy isn't flat (agreement.txt vs others)
 #
-preserve_hierarchy: false
+preserve_hierarchy: true
 
 #
 # Source files & their translation patterns
