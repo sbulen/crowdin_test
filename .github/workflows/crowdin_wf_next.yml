@@ -1,6 +1,6 @@
 # CrowdIn workflow for SMF
 
-name: CrowdIn
+name: CrowdIn_NEXT
 
 # Controls when the action will run. 
 on:
