@@ -36,7 +36,7 @@ jobs:
         # At the moment, it really does not like embedded spaces (2/2021)
         crowdin_branch_name: 'SMF_2-1_NEXT'
         # Path to crowdin.yml, no leading /
-        config: .github
+        config: .github/crowdin.yml
 
       env:
         # Use GitHub Secrets here, so sensitive stuff isn't in the publicly visible workflow
