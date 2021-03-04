@@ -1,6 +1,6 @@
 # CrowdIn workflow for SMF
 
-name: CrowdIn
+name: CrowdIn - Update current once per release
 
 # Controls when the action will run. 
 on:
